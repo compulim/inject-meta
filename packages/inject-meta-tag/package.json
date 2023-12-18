@@ -1,5 +1,5 @@
 {
-  "name": "inject-meta",
+  "name": "inject-meta-tag",
   "version": "0.0.0-0",
   "description": "Injects <meta> tag into document head.",
   "files": [
@@ -42,17 +42,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/compulim/inject-meta.git"
+    "url": "git+https://github.com/compulim/inject-meta-tag.git"
   },
   "keywords": [
-    "inject-meta"
+    "inject-meta-tag"
   ],
   "author": "William Wong (https://github.com/compulim)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/compulim/inject-meta/issues"
+    "url": "https://github.com/compulim/inject-meta-tag/issues"
   },
-  "homepage": "https://github.com/compulim/inject-meta#readme",
+  "homepage": "https://github.com/compulim/inject-meta-tag#readme",
   "pinDependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.23.4",

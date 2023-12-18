@@ -9,5 +9,5 @@ jobs:
   call-workflow:
     uses: compulim/workflows/.github/workflows/pull-request-validation.yml@main
     with:
-      package-name: inject-meta
+      package-name: inject-meta-tag
       skip-integration-test: false

@@ -15,7 +15,7 @@ export default function injectMeta(name: string, content?: string): void {
 
     document.head.appendChild(metaElement);
   } catch (error) {
-    console.error(`inject-meta: Failed to inject <meta name="${name}"> tag.`, error);
+    console.error(`inject-meta-tag: Failed to inject <meta name="${name}"> tag.`, error);
   }
 }
 

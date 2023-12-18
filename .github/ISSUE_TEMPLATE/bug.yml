@@ -15,7 +15,7 @@ body:
       description: |
         Please verify the issue on latest versions. Support on non-latest version is minimal and on a per case basis.
 
-        If you are using latest production, please verify against our latest development version as the issue could have been resolved recently. To install latest development version, run `npm install inject-meta@main`.
+        If you are using latest production, please verify against our latest development version as the issue could have been resolved recently. To install latest development version, run `npm install inject-meta-tag@main`.
 
       multiple: true
       options:
@@ -30,8 +30,8 @@ body:
       description: Please describe how you import our package.
       multiple: true
       options:
-        - 'ESM: import { injectMeta } from "inject-meta"'
-        - 'CommonJS: require("inject-meta")'
+        - 'ESM: import { injectMeta } from "inject-meta-tag"'
+        - 'CommonJS: require("inject-meta-tag")'
         - Others or unrelated
     validations:
       required: true
@@ -79,11 +79,11 @@ body:
       value: |
         import { afterEach, beforeEach, describe, expect, jest, test } from '@jest/globals';
 
-        import { injectMeta } from 'inject-meta';
+        import { injectMetaTag } from 'inject-metaTag';
 
         describe('scenario name', () => {
-          // WHEN: injectMeta() is called.
-          beforeEach(async () => injectMeta('hello', 'World!'));
+          // WHEN: injectMetaTag() is called.
+          beforeEach(async () => injectMetaTag('hello', 'World!'));
 
           describe('should have <meta> tag in document.head', () => expect(document.head.querySelector('meta[name="hello"]').toBeTruthy()));
         });

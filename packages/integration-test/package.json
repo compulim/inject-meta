@@ -1,5 +1,5 @@
 {
-  "name": "inject-meta-integration-test",
+  "name": "inject-meta-tag-integration-test",
   "version": "0.0.0-0",
   "description": "",
   "private": true,
@@ -14,7 +14,7 @@
   "author": "William Wong (https://github.com/compulim)",
   "license": "MIT",
   "localPeerDependencies": {
-    "inject-meta": "^0.0.0-0"
+    "inject-meta-tag": "^0.0.0-0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
@@ -26,6 +26,6 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.22.15",
-    "inject-meta": "^0.0.0-0"
+    "inject-meta-tag": "^0.0.0-0"
   }
 }

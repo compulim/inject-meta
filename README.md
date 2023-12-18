@@ -1,4 +1,4 @@
-# `inject-meta`
+# `inject-meta-tag`
 
 Injects `<meta>` into document head.
 
@@ -9,7 +9,7 @@ Injects custom `<meta>` into document head. For example, you can use `<meta>` to
 ## How to use
 
 ```ts
-import { injectMeta, npm } from 'inject-meta';
+import { injectMeta, npm } from 'inject-meta-tag';
 
 // Will inject <meta name="my-package" content="1.0.0" /> into document head.
 injectMeta('my-package', '1.0.0');
@@ -32,8 +32,8 @@ npm(name: string, init: { version: string }): void;
 
 ## Contributions
 
-Like us? [Star](https://github.com/compulim/inject-meta/stargazers) us.
+Like us? [Star](https://github.com/compulim/inject-meta-tag/stargazers) us.
 
-Want to make it better? [File](https://github.com/compulim/inject-meta/issues) us an issue.
+Want to make it better? [File](https://github.com/compulim/inject-meta-tag/issues) us an issue.
 
-Don't like something you see? [Submit](https://github.com/compulim/inject-meta/pulls) a pull request.
+Don't like something you see? [Submit](https://github.com/compulim/inject-meta-tag/pulls) a pull request.

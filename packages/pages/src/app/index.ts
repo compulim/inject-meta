@@ -1,4 +1,4 @@
-import { injectMeta, npm } from 'inject-meta';
+import { injectMetaTag, npm } from 'inject-meta-tag';
 
 declare global {
   const process: {
@@ -8,9 +8,9 @@ declare global {
   };
 }
 
-injectMeta('inject-meta');
-injectMeta('inject-meta:version', process.env.npm_package_version);
-npm('inject-meta', { version: process.env.npm_package_version });
+injectMetaTag('inject-meta-tag');
+injectMetaTag('inject-meta-tag:version', process.env.npm_package_version);
+npm('inject-meta-tag', { version: process.env.npm_package_version });
 
 const text: string[] = [];
 

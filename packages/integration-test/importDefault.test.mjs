@@ -1,9 +1,9 @@
 /** @jest-environment jsdom  */
 
-import { injectMeta } from 'inject-meta';
+import { injectMetaTag } from 'inject-meta-tag';
 
-describe('call injectMeta() with both arguments', () => {
-  beforeEach(() => injectMeta('hello', 'World!'));
+describe('call injectMetaTag() with both arguments', () => {
+  beforeEach(() => injectMetaTag('hello', 'World!'));
 
   test('should have <meta> with "content" attribute', () =>
     expect(document.head.querySelector('meta[name="hello"]')?.getAttribute('content')).toBe('World!'));
