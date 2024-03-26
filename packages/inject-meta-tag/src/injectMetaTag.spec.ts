@@ -1,19 +1,19 @@
 /** @jest-environment jsdom */
 
-import injectMeta from './injectMeta';
+import injectMetaTag from './injectMetaTag';
 
 afterEach(() => {
   document.documentElement.innerHTML = '';
 });
 
 describe('injectMeta() without content', () => {
-  beforeEach(() => injectMeta('hello'));
+  beforeEach(() => injectMetaTag('hello'));
 
   test('should append <meta> tag', () => expect(document.head.querySelector('meta[name="hello"]')).toBeTruthy());
 });
 
 describe('injectMeta() with content', () => {
-  beforeEach(() => injectMeta('hello', 'World!'));
+  beforeEach(() => injectMetaTag('hello', 'World!'));
 
   test('should append <meta> tag', () => expect(document.head.querySelector('meta[name="hello"]')).toBeTruthy());
 
