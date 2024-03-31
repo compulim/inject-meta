@@ -2,7 +2,7 @@ import { injectMetaTag, npm } from 'inject-meta-tag';
 
 declare global {
   const InjectMetaTag: {
-      npm_package_version: string;
+    npm_package_version: string;
   };
 }
 
