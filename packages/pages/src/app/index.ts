@@ -1,16 +1,14 @@
 import { injectMetaTag, npm } from 'inject-meta-tag';
 
 declare global {
-  const process: {
-    env: {
-      npm_package_version: string;
-    };
+  const InjectMetaTag: {
+    npm_package_version: string;
   };
 }
 
 injectMetaTag('inject-meta-tag');
-injectMetaTag('inject-meta-tag:version', process.env.npm_package_version);
-npm('inject-meta-tag', { version: process.env.npm_package_version });
+injectMetaTag('inject-meta-tag:version', InjectMetaTag.npm_package_version);
+npm('inject-meta-tag', { version: InjectMetaTag.npm_package_version });
 
 const text: string[] = [];
 

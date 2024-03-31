@@ -7,6 +7,9 @@
     "\\.pnp\\.[^\\/]+$"
   ],
   "transform": {
+    "/__tests__/types/": [
+      "<rootDir>/__tests__/__setup__/typingTestTransformer.js"
+    ],
     "\\.[jt]sx?$": [
       "babel-jest",
       {
