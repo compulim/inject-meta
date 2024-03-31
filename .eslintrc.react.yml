@@ -1,8 +1,4 @@
 extends:
   - plugin:react/recommended
-  - plugin:react/jsx-runtime
 plugins:
   - react
-settings:
-  react:
-    version: 18.2.0
