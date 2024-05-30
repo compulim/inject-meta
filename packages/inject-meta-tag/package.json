@@ -3,7 +3,7 @@
   "version": "0.0.0-0",
   "description": "Injects <meta> tag into document head.",
   "files": [
-    "./lib/"
+    "./dist/"
   ],
   "exports": {
     ".": {
