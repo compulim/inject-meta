@@ -1,6 +1,6 @@
 {
   "name": "inject-meta-tag-root",
-  "version": "0.0.2-0",
+  "version": "0.1.0-0",
   "description": "Injects <meta> tag into document head.",
   "private": true,
   "author": "William Wong (https://github.com/compulim)",
