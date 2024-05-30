@@ -21,9 +21,9 @@
     "inject-meta-tag": "^0.0.0-0"
   },
   "devDependencies": {
-    "@tsconfig/strictest": "^2.0.4",
-    "esbuild": "^0.20.2",
-    "typescript": "^5.4.3"
+    "@tsconfig/strictest": "^2.0.5",
+    "esbuild": "^0.21.4",
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "inject-meta-tag": "^0.0.0-0"
