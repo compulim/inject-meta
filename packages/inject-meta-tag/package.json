@@ -8,8 +8,8 @@
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/inject-meta-tag.d.dts",
-        "default": "./dist/inject-meta-tag.djs"
+        "types": "./dist/inject-meta-tag.d.mts",
+        "default": "./dist/inject-meta-tag.mjs"
       },
       "require": {
         "types": "./dist/inject-meta-tag.d.ts",
