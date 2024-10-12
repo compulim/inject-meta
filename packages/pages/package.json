@@ -22,8 +22,8 @@
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.5",
-    "esbuild": "^0.21.5",
-    "typescript": "^5.5.2"
+    "esbuild": "^0.24.0",
+    "typescript": "^5.6.3"
   },
   "dependencies": {
     "inject-meta-tag": "^0.0.0-0"
