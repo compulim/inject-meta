@@ -25,6 +25,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
       - [`prettier@3.3.2`](https://npmjs.com/package/prettier/v/3.3.2)
       - [`tsup@8.1.0`](https://npmjs.com/package/tsup/v/8.1.0)
       - [`typescript@5.5.2`](https://npmjs.com/package/typescript/v/5.5.2)
+- Added [ESLint import/export syntax](https://npmjs.com/package/eslint-plugin-import), in PR [#15](https://github.com/compulim/inject-meta-tag/pull/15)
+- Added [`publint`](https://npmjs.com/package/publint), in PR [#15](https://github.com/compulim/inject-meta-tag/pull/15)
 
 ## [0.0.1] - 2024-03-31
 
