@@ -9,7 +9,7 @@
     "noEmit": true,
     "strict": true,
     "target": "ESNext",
-    "types": ["jest", "node"]
+    "types": []
   },
-  "extends": "@tsconfig/strictest/tsconfig.json"
+  "extends": "./tsconfig.custom.json"
 }
