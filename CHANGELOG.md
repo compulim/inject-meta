@@ -7,12 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Breaking changes
-
-- Moved build tools from Babel to tsup/esbuild
-
 ### Changed
 
+- 💢 Moved build tools from Babel to tsup/esbuild
 - Bumped dependencies, in PR [#10](https://github.com/compulim/inject-meta-tag/pull/10), and [#13](https://github.com/compulim/inject-meta-tag/pull/13)
    - Development dependencies
       - [`@babel/preset-env@7.24.7`](https://npmjs.com/package/@babel/preset-env/v/7.24.7)
@@ -39,4 +36,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated pull request validation to test against various React versions, in PR [#2](https://github.com/compulim/inject-meta-tag/pull/2)
    - Moved from JSX Runtime to JSX Classic to support testing against React 16
 
-[0.0.1]: https://github.com/compulim/inject-meta-tag/releases/tag/v0.0.1
+[Unreleased]: https://github.com/compulim/inject-meta/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/compulim/inject-meta/releases/tag/v0.0.1
